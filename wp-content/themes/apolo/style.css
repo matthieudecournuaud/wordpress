@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(235, 234, 250);
+  color: #333;
+}
+body #message-de-bienvenue {
+  display: flex;
+  justify-content: center;
+}
+body #message-de-bienvenue .message-de-bienvenue {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  font-family: "roboto";
+  font-size: 1.2em;
+}
+body section:last-child {
+  margin-bottom: 10vh;
+  padding-bottom: 10vh;
+}
+body .menu-menu-1-container {
+  background-color: rgb(13, 9, 40);
+  padding: 5vh;
+}
+body .menu-menu-1-container ul {
+  display: flex;
+  justify-content: space-around;
+}
+body .menu-menu-1-container ul a {
+  font-size: 2rem;
+  font-family: "roboto";
+  text-decoration: none;
+  color: white;
+  padding: 5vh;
+}
+body .menu-menu-1-container ul a:hover {
+  transition: 0.6s;
+  background-color: white;
+  color: #333;
+}
+body .menu-menu-1-container ul li {
+  list-style-type: none;
+}
+body div h1 {
+  text-align: center;
+  font-size: 10rem;
+  font-family: "roboto";
+  margin-top: 10vh;
+}
+body #accueil {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body #accueil section {
+  margin-top: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgb(12, 13, 50);
+}
+body #accueil section article {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 14vh;
+}
+body #accueil section article div {
+  display: flex;
+  width: 21vw;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 100px;
+  background-color: aliceblue;
+  padding: 3vh;
+  border-radius: 3vh;
+}
+body #accueil section article div img {
+  border-radius: 3vh;
+}
+body #accueil section article div img:hover {
+  transition: 0.6s;
+  scale: 107%;
+}
+body #accueil section article div h2 {
+  margin-top: 2vh;
+}
+body #accueil section article div a {
+  margin-top: 2vh;
+  text-decoration: none;
+  color: #333;
+}
+body #main-article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #main-article article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3vh;
+  background-color: rgba(201, 207, 255, 0.682);
+  margin-top: 5vh;
+  border-radius: 3vh;
+  color: #333;
+  font-family: "roboto";
+  gap: 3vh;
+}
+body #main-article article #title-single {
+  font-size: 4rem;
+  padding: 2vh 0 2vh 0;
+  color: #333;
+}
+body #main-article article h2 {
+  color: #333;
+  font-weight: 600;
+}
+body #main-article article img {
+  border-radius: 3vh;
+}
+body #main-article article .wp-block-columns {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50vh;
+}
+body #main-article article .wp-block-columns a {
+  text-decoration: none;
+  color: #333;
+}
+body #main-article article .wp-block-columns a:hover {
+  color: rgb(106, 168, 255);
+}
+body #main-article article .wp-block-group__inner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+body #main-article article .wp-block-columns:last-child {
+  margin-bottom: 10vh;
+}
+body #main-article article #button {
+  background-color: white;
+  border: none;
+  width: 20%;
+  padding: 3vh;
+  border-radius: 1vh;
+}
+body #main-article article #button a {
+  text-decoration: none;
+  padding: 3vh;
+}
+body #main-article article #button:hover {
+  background-color: rgb(34, 14, 136);
+  transition: 0.6s;
+}
+body #main-article article #button:hover a {
+  transition: 0.6s;
+  color: white;
+}
+body #main-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body #main-page section {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #main-page section article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #main-page section article h1 {
+  text-align: center;
+  font-size: 10rem;
+  font-family: "roboto";
+  padding: 5vh 0 0 0;
+}
+body #main-page section article #bloc1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "roboto";
+  gap: 3vh;
+}
+body #main-page section article #bloc1 figure {
+  width: 60%;
+}
+body #main-page section article #bloc1 figure img {
+  width: 100%;
+}
+body #main-page section article #bloc1 p {
+  width: 80%;
+}
+body #main-page section article #bloc1 .wp-block-columns {
+  width: 100vw;
+  background-color: rgba(201, 207, 255, 0.682);
+  color: #333;
+  padding: 10vh 0 10vh 0;
+}
+body #main-page section article #bloc1 .wp-block-columns .bloc {
+  width: 100%;
+}
+body #main-page section article #bloc1 .wp-block-columns .bloc .wp-block-group {
+  display: flex;
+  justify-content: center;
+}
+body #main-page section article #bloc1 .wp-block-columns .bloc .wp-block-group .wp-block-group__inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  gap: 3vh;
+}
+body #main-page section article #bloc1 .wp-block-columns .bloc .wp-block-group .wp-block-group__inner-container p:first-child {
+  font-size: 2.5rem;
+  padding: 2vh 5vh 0vh 0vh;
+  color: #333;
+  font-weight: 700;
+}
+body #main-page section article #bloc1 .wp-block-columns .bloc .wp-block-group .wp-block-group__inner-container .size-large {
+  width: 90%;
+}
+body #main-page section article #bloc1 form {
+  margin-top: 10vh;
+  background-color: rgba(201, 207, 255, 0.682);
+  border-radius: 16px;
+  padding: 5vh;
+}
+body #main-page section article #bloc1 form input {
+  margin-bottom: 3vh;
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+}
+body #main-page section article #bloc1 form input::-moz-placeholder {
+  color: #333;
+}
+body #main-page section article #bloc1 form input:-ms-input-placeholder {
+  color: #333;
+}
+body #main-page section article #bloc1 form input::placeholder {
+  color: #333;
+}
+body #main-page section article #bloc1 form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+body #main-page section article #bloc1 form textarea {
+  margin-bottom: 3vh;
+  border: none;
+  border-radius: 8px;
+}
+body #main-page section article #bloc1 form .wpcf7-submit {
+  padding: 2vh 4vh 2vh 4vh;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(34, 14, 136);
+  color: white;
+}
+body #main-page section article #bloc1 form .wpcf7-submit:hover {
+  transition: 0.6s;
+  background-color: rgb(12, 13, 50);
+  color: white;
+}
+body footer {
+  margin-top: 10vh;
+  background-color: rgb(13, 9, 40);
+  padding: 5vh;
+  color: white;
+  text-align: right;
+  font-family: "roboto";
+}/*# sourceMappingURL=style.css.map */
